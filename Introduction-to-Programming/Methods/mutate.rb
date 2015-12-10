@@ -4,7 +4,7 @@
 a = [1,2,3]
 
 def mutate(array)
-  # The pop method mutates the caller. It permanently removes the last item from the array.
+  # The pop method mutates the caller. It permanently removes the last item from the array (and returns it).
   array.pop
 end
 
